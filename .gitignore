@@ -39,6 +39,8 @@ docs/.vuepress/.temp/*
 docs/.vuepress/.cache/*
 docs/.vuepress/dist/*
 node_modules/
+.wrangler/
+.dev.vars
 
 ### VS Code ###
 .vscode/

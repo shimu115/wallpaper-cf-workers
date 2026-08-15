@@ -1,0 +1,20 @@
+{
+  "name": "wallpaper-cf-workers",
+  "version": "1.0.0",
+  "private": true,
+  "description": "wallpaper-api 的 Cloudflare Workers 图片网关：图片请求路由、反向代理与边缘缓存。",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "test": "vitest run",
+    "predeploy": "npm test",
+    "deploy": "wrangler deploy",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^2.1.0",
+    "wrangler": "^3.0.0"
+  }
+}
